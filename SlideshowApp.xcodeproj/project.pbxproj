@@ -13,6 +13,10 @@
 		9D294AC529ED22C9000E78F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D294AC329ED22C9000E78F9 /* Main.storyboard */; };
 		9D294AC729ED22CA000E78F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D294AC629ED22CA000E78F9 /* Assets.xcassets */; };
 		9D294ACA29ED22CA000E78F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D294AC829ED22CA000E78F9 /* LaunchScreen.storyboard */; };
+		9D294AD429EE5202000E78F9 /* bg_natural_umi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D294AD329EE5202000E78F9 /* bg_natural_umi.jpg */; };
+		9DDF486F29EFB836001A1C34 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF486E29EFB836001A1C34 /* ImageViewController.swift */; };
+		9DDF487129EFCCC6001A1C34 /* bg_sora.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9DDF487029EFCCC6001A1C34 /* bg_sora.jpeg */; };
+		9DDF487329EFCCD6001A1C34 /* bg_yama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9DDF487229EFCCD6001A1C34 /* bg_yama.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9D294AC629ED22CA000E78F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D294AC929ED22CA000E78F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D294ACB29ED22CA000E78F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D294AD329EE5202000E78F9 /* bg_natural_umi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_natural_umi.jpg; path = ../../../Desktop/bg_natural_umi.jpg; sourceTree = "<group>"; };
+		9DDF486E29EFB836001A1C34 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9DDF487029EFCCC6001A1C34 /* bg_sora.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_sora.jpeg; sourceTree = "<group>"; };
+		9DDF487229EFCCD6001A1C34 /* bg_yama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_yama.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				9D294ABD29ED22C9000E78F9 /* AppDelegate.swift */,
 				9D294ABF29ED22C9000E78F9 /* SceneDelegate.swift */,
 				9D294AC129ED22C9000E78F9 /* ViewController.swift */,
+				9DDF486E29EFB836001A1C34 /* ImageViewController.swift */,
 				9D294AC329ED22C9000E78F9 /* Main.storyboard */,
 				9D294AC629ED22CA000E78F9 /* Assets.xcassets */,
 				9D294AC829ED22CA000E78F9 /* LaunchScreen.storyboard */,
 				9D294ACB29ED22CA000E78F9 /* Info.plist */,
+				9D294AD329EE5202000E78F9 /* bg_natural_umi.jpg */,
+				9DDF487029EFCCC6001A1C34 /* bg_sora.jpeg */,
+				9DDF487229EFCCD6001A1C34 /* bg_yama.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DDF487329EFCCD6001A1C34 /* bg_yama.jpeg in Resources */,
 				9D294ACA29ED22CA000E78F9 /* LaunchScreen.storyboard in Resources */,
 				9D294AC729ED22CA000E78F9 /* Assets.xcassets in Resources */,
+				9D294AD429EE5202000E78F9 /* bg_natural_umi.jpg in Resources */,
+				9DDF487129EFCCC6001A1C34 /* bg_sora.jpeg in Resources */,
 				9D294AC529ED22C9000E78F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				9D294AC229ED22C9000E78F9 /* ViewController.swift in Sources */,
 				9D294ABE29ED22C9000E78F9 /* AppDelegate.swift in Sources */,
+				9DDF486F29EFB836001A1C34 /* ImageViewController.swift in Sources */,
 				9D294AC029ED22C9000E78F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
