@@ -107,6 +107,10 @@ class ViewController: UIViewController {
             timerFlag = false
         }
         
+        //「進む」「戻る」ボタンを有効化
+        nextImg.isEnabled = true
+        prevImg.isEnabled = true
+        
         // タイマーを停止後、画面遷移
         self.performSegue(withIdentifier: "ToNextView", sender: nil)
     }
